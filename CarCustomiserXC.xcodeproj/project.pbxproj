@@ -16,6 +16,7 @@
 		14AEC7762B59E20C007C052C /* CarCustomiserXCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEC7752B59E20C007C052C /* CarCustomiserXCUITestsLaunchTests.swift */; };
 		14E7E56A2B5ACF9500336FAE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7E5692B5ACF9500336FAE /* Car.swift */; };
 		14E7E56B2B5ACFE200336FAE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7E5692B5ACF9500336FAE /* Car.swift */; };
+		14E7E56D2B5F117A00336FAE /* StarterCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7E56C2B5F117A00336FAE /* StarterCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		14AEC7732B59E20C007C052C /* CarCustomiserXCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserXCUITests.swift; sourceTree = "<group>"; };
 		14AEC7752B59E20C007C052C /* CarCustomiserXCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserXCUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		14E7E5692B5ACF9500336FAE /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		14E7E56C2B5F117A00336FAE /* StarterCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,12 @@
 		14AEC7572B59E20B007C052C /* CarCustomiserXC */ = {
 			isa = PBXGroup;
 			children = (
+				14E7E56C2B5F117A00336FAE /* StarterCars.swift */,
 				14AEC7582B59E20B007C052C /* CarCustomiserXCApp.swift */,
 				14AEC75A2B59E20B007C052C /* ContentView.swift */,
+				14E7E5692B5ACF9500336FAE /* Car.swift */,
 				14AEC75C2B59E20C007C052C /* Assets.xcassets */,
 				14AEC75E2B59E20C007C052C /* Preview Content */,
-				14E7E5692B5ACF9500336FAE /* Car.swift */,
 			);
 			path = CarCustomiserXC;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				14AEC75B2B59E20B007C052C /* ContentView.swift in Sources */,
 				14AEC7592B59E20B007C052C /* CarCustomiserXCApp.swift in Sources */,
+				14E7E56D2B5F117A00336FAE /* StarterCars.swift in Sources */,
 				14E7E56A2B5ACF9500336FAE /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
